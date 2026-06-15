@@ -1,0 +1,22 @@
+Connecting to Kafka at localhost:9092...
+Subscribed to topic: 'user-events'
+Waiting for messages. Press Ctrl+C to stop.
+
+Received: {'user_id': 101, 'event': 'login', 'timestamp': '2026-06-13T08:00:00Z'}
+  Topic:     user-events
+  Partition: 0
+  Offset:    0
+  Key:       None
+----------------------------------------
+Received: {'user_id': 102, 'event': 'page_view', 'page': '/home', 'timestamp': '2026-06-13T08:01:00Z'}
+  Topic:     user-events
+  Partition: 0
+  Offset:    1
+  Key:       None
+----------------------------------------
+Received: {'user_id': 101, 'event': 'add_to_cart', 'product_id': 'SKU-42', 'timestamp': '2026-06-13T08:02:00Z'}
+  Topic:     user-events
+  Partition: 0
+  Offset:    2
+  Key:       None
+----------------------------------------

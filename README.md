@@ -36,6 +36,17 @@ Wait ~30 seconds for Kafka to be ready.
 pip install -r requirements.txt
 ```
 
+## Quick test (Windows)
+
+Start Docker Desktop, then run:
+
+```powershell
+pip install -r requirements.txt
+.\run-test.ps1
+```
+
+This starts Kafka, sends sample messages, and prints consumer output. Screenshot that terminal for your deliverable.
+
 ## Usage
 
 ### Terminal 1 — Start the consumer
